@@ -9,4 +9,7 @@ public class Main {
     public static int[] merge(int[] left, int[] right) {
         return null;
     }
+    public static int[] mertgeSort(int[] array){
+        return null;
+    }
 }
