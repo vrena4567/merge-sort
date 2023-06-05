@@ -2,7 +2,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Merge sort");
+        int[] array = {1, 4, 64, 23, 5, 7, -1, -98, 6, 12, 50, -123};
+        array = mergeSort(array);
+        System.out.println(Arrays.toString(array));
     }
 
     public static boolean isSorted(int[] array) {
